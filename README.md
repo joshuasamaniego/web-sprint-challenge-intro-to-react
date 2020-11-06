@@ -30,11 +30,18 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+- React JS is a very involved JS function that allows someone using React to handle situations of changing/updating data.
+
 1. Describe component state.
 
+- State is a page element whose original 'state of being' is designated by the developer and changed into something else by the actions of a user, usually upon click or some other type of page interaction.
+
 1. Describe props.
+   -props is short for properties and is a way for data to be shared from parent to child across various files within an application.
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+- Side effects are like state changes where thge page refreshes whenever there is a change in an effect. But so that the side effects aren't triggered by every user event, you input an empty array to have the effect only run on first render, and then an array of data to have that effect run when there are changes to that specific array.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -42,15 +49,15 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Run `npm install` to retrieve all needed dependencies.
-- [ ] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: `git push origin <firstName-lastName>`
+- [ ✅ ] Create a forked copy of this project
+- [ ✅ ] Add your team lead as collaborator on Github
+- [ ✅ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [ ✅ ] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [ ✅ ] Run `npm install` to retrieve all needed dependencies.
+- [ ✅ ] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
+- [ ✅ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [ ✅ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [ ✅ ] Push commits: `git push origin <firstName-lastName>`
 
 ### Task 2: Project Requirements
 
