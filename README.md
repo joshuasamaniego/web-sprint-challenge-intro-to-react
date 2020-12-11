@@ -34,14 +34,15 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Describe component state.
 
-- State is a page element whose original 'state of being' is designated by the developer and changed into something else by the actions of a user, usually upon click or some other type of page interaction.
+- State is a page element whose original 'state of being' is designated by the developer and changed into something else either by changing data from an API or by the actions of a user, usually upon click or some other type of page interaction.
 
 1. Describe props.
-   -props is short for properties and is a way for data to be shared from parent to child across various files within an application.
+
+- props is short for properties and is a way for data to be shared from parent to child across various files within an application.
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
 
-- Side effects are like state changes where thge page refreshes whenever there is a change in an effect. But so that the side effects aren't triggered by every user event, you input an empty array to have the effect only run on first render, and then an array of data to have that effect run when there are changes to that specific array.
+- Side effects are like state changes where thge page refreshes whenever there is a change in an effect (depending on what the initial value is). But so that the side effects aren't triggered by every user event, you input an empty array to have the effect only run on first render, and then an array of data to have that effect run when there are changes to that specific array.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
